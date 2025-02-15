@@ -15,8 +15,8 @@
 
 name: Tencent Kubernetes Engine
 
-on:
-  push:
+on: theox443 
+  push: https://github.com/theox443/
     branches: [ "main" ]
 
 # Environment variables available to all jobs and steps in this workflow
@@ -26,7 +26,7 @@ env:
   TKE_CLUSTER_ID: cls-mywebapp
   DEPLOYMENT_NAME: tke-test
 
-permissions:
+permissions: github 
   contents: read
 
 jobs:
