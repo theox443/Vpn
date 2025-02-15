@@ -1,0 +1,5 @@
+from http.cookies import
+cookie = SimpleCookie()
+cookie['session'] = 'encrypted_session_data'
+cookie['session']['domain'] = '.example.com'
+cookie['session']['path'] = '/'
